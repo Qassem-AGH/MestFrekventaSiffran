@@ -45,6 +45,9 @@ class Program
 
         // Test 2 
         Console.WriteLine(MestFrekventSiffra(new int[] { 7, 7, 5, 5, 1, 1, 1, 2, 2, 2 }));
+
+        // Test 3 - negativa tal
+        Console.WriteLine(MestFrekventSiffra(new int[] { -1, -1, -2 })); 
     }
 }
 
